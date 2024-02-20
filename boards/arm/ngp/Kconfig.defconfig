@@ -6,6 +6,9 @@ if BOARD_NGP
 config BOARD
     default "ngp"
 
+config ZMK_KEYBOARD_NAME
+    default "NGP"
+
 if USB_DEVICE_STACK
 
 config USB_NRFX
