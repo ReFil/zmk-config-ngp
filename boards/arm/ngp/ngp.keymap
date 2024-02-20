@@ -11,7 +11,7 @@
         default_layer {
             bindings = <
                 &kp EQUAL &bt BT_CLR
-                &bl BL_TOG &rgb_ug RGB_TOG
+                &bl BL_TOG &bt BT_CLR
             >;
         };
     };
