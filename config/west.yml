@@ -11,11 +11,11 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: refil-zmk-behaviour-modules
-      remote: refil
+    - name: keysmash
+      remote: https://github.com/ReFil/refil-zmk-behaviour-modules
       revision: keysmash
-    - name: refil-zmk-behaviour-modules
-      remote: refil
+    - name: sarcasm
+      url: https://github.com/ReFil/refil-zmk-behaviour-modules
       revision: sarcasm
   self:
     path: config
