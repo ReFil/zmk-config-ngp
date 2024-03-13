@@ -26,7 +26,7 @@
         zmk,battery = &vbatt;
         zmk,matrix-transform = &default_transform;
         zmk,underglow = &led_strip;
-        // zephyr,display = &epd;
+        zephyr,display = &epd;
     };
 
     vbatt: vbatt {
@@ -36,7 +36,8 @@
     // Node name must match original "EXT_POWER" label to preserve user settings.
     EXT_POWER {
         compatible = "zmk,ext-power-generic";
-        control-gpios = <&gpio1 6 GPIO_ACTIVE_HIGH>;
+        control-gpios = <&gpio1 6 GPIO_ACTIVE_HIGH,
+        &gpio1 7 GPIO_ACTIVE_HIGH>;
     };
 
     backlight: pwmleds {
@@ -131,7 +132,7 @@
 
 // Display (to be enabled)
 &spi0 {
-    status = "disabled";
+    status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi0_default>;
     pinctrl-1 = <&spi0_sleep>;
