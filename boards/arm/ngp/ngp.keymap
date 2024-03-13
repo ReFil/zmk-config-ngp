@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <behaviors/keysmash.dtsi>
+#include <behaviors/sarcasm.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -11,8 +12,8 @@
 
         default_layer {
             bindings = <
-                &kp EQUAL &keysmash
-                &kp EQUAL &keysmash
+                &sarcasm &keysmash
+                &sarcasm &keysmash
             >;
         };
     };

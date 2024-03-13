@@ -14,5 +14,8 @@ manifest:
     - name: refil-zmk-behaviour-modules
       remote: refil
       revision: keysmash
+    - name: refil-zmk-behaviour-modules
+      remote: refil
+      revision: sarcasm
   self:
     path: config
