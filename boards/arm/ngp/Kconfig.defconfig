@@ -36,7 +36,7 @@ config IL0323
     default y
 
 config ZMK_DISPLAY_BLANK_ON_IDLE
-    default n
+    default y
 
 # Needed for the IL0323 driver which allocs memory to clear the display
 config HEAP_MEM_POOL_SIZE
@@ -46,6 +46,18 @@ config HEAP_MEM_POOL_SIZE
      default 4096
 
 endif # ZMK_DISPLAY
+
+menuconfig CUSTOM_WIDGET_BATTERY_STATUS
+    bool "custom battery status widget"
+
+menuconfig CUSTOM_WIDGET_OUTPUT_STATUS
+    bool "custom output status widget"
+
+menuconfig CUSTOM_WIDGET_LAYER_STATUS
+    bool "custom layer status widget"
+
+menuconfig CUSTOM_WIDGET_PERIPHERAL_STATUS
+    bool "custom peripheral status widget"
 
 config BT_CTLR
     default BT
