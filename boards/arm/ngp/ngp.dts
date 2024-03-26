@@ -31,6 +31,7 @@
 
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
+        chg-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>;
     };
     
     // Node name must match original "EXT_POWER" label to preserve user settings.
