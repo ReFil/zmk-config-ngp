@@ -11,11 +11,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: keysmash
-      url: https://github.com/ReFil/refil-zmk-behaviour-modules
-      revision: keysmash
-    - name: awawa
-      url: https://github.com/ReFil/refil-zmk-behaviour-modules
-      revision: awawa
+    - name: leds
+      remote: refil
+      revision: main
   self:
     path: config
