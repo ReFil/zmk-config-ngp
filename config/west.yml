@@ -13,6 +13,6 @@ manifest:
       import: app/west.yml
     - name: form-indicators-zephyr-module
       remote: refil
-      revision: main
+      revision: undo
   self:
     path: config
