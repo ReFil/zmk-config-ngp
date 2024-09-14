@@ -21,4 +21,4 @@
 include:
   - board: ngp
     snippet: zmk-usb-logging
-    snipper: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart
