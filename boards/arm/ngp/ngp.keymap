@@ -16,16 +16,6 @@
             hold-time-ms = <5000>;
         };
     };
-    side_band_behavior_triggers: side_band_behavior_triggers {
-        compatible = "zmk,kscan-sideband-behaviors";
-        wakeup-source;
-        kscan = <&kscan0>;
-        soft_off {
-            column = <0>;
-            row = <4>;
-            bindings = <&hw_soft_off>;
-        };
-    };
     tap_dances {
     	shifty: shift_caps_word {
 		compatible = "zmk,behavior-tap-dance";
