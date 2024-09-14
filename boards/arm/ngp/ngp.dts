@@ -191,8 +191,8 @@ zephyr_udc0: &usbd  {
     pinctrl-names = "default", "sleep";
     cs-gpios = <&gpio0 21 GPIO_ACTIVE_LOW>;
 
-    epd: ssd1680@0 {
-        compatible = "solomon,ssd1680";
+    epd: ssd1681@0 {
+        compatible = "solomon,ssd1681";
         reg =  <0>;
         width = <88>;
         height = <184>;
