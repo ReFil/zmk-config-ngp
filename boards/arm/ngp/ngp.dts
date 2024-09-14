@@ -195,7 +195,7 @@ zephyr_udc0: &usbd  {
         compatible = "solomon,ssd1680";
         reg =  <0>;
         width = <184>;
-        height = <88>;
+        height = <96>;
         spi-max-frequency = <4000000>;
         dc-gpios = <&gpio0 23 GPIO_ACTIVE_LOW>;
         busy-gpios = <&gpio1 00 GPIO_ACTIVE_HIGH>;
