@@ -23,7 +23,7 @@
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
         zephyr,console = &cdc_acm_uart;
-        zmk,kscan = &side_band_behavior_triggers;
+        zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,physical-layout = &ten_u_layout;
         zephyr,display = &epd;
