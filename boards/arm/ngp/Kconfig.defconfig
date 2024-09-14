@@ -7,7 +7,7 @@ config BOARD
     default "ngp"
 
 config ZMK_KEYBOARD_NAME
-    default "NGP"
+    default "Eternity36"
 
 if USB_DEVICE_STACK
 
