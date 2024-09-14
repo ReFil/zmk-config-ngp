@@ -115,7 +115,7 @@
         &kp Q      &kp W      &kp F       &kp P          &kp B         &kp J            &kp L          &kp U       &kp Y      &kp QUOT
         &kp A      &kp R      &kp S       &kp T          &kp G         &kp M            &kp N          &kp E       &kp I      &kp O   
         &kp Z      &kp X      &kp C       &kp D          &kp V         &kp K            &kp H          &kp COMMA   &kp DOT    &kp SEMI     
-                              &hw_soft_off       &mo NAV_L      &shifty      &kp SPACE        &mo NUM_L &none
+                              &none       &mo NAV_L      &shifty      &kp SPACE        &mo NUM_L &none
             >;
         };
 
@@ -142,7 +142,7 @@
        &bt BT_CLR      &trans     &trans      &trans          &trans       &trans           &kp C_PREV     &kp C_VOL_DN     &kp C_VOL_UP &kp C_NEXT
        &none           &trans     &trans      &trans          &trans       &trans           &trans         &trans           &trans       &trans
        &none           &trans     &trans      &trans          &trans       &trans           &trans         &kp C_PLAY_PAUSE &kp C_MUTE       &trans
-                                  &none  &trans          &trans       &trans           &trans &none
+                                  &hw_soft_off  &trans          &trans       &trans           &trans &studio_unlock
             >;
         };
     };
