@@ -26,7 +26,7 @@
         zmk,kscan = &side_band_behavior_triggers;
         zmk,battery = &vbatt;
         zmk,physical-layout = &ten_u_layout;
-        //zephyr,display = &epd;
+        zephyr,display = &epd;
     };
 
     vbatt: vbatt {
@@ -204,9 +204,7 @@ zephyr_udc0: &usbd  {
         dc-gpios = <&gpio0 23 GPIO_ACTIVE_LOW>;
         busy-gpios = <&gpio1 00 GPIO_ACTIVE_LOW>;
         reset-gpios = <&gpio0 25 GPIO_ACTIVE_LOW>;
-        pwr = [03 00 2b 2b];
-        cdi = <0x57>;
-        tcon = <0x22>;
+
     };
 };
 
