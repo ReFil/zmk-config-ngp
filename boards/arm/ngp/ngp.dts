@@ -51,7 +51,7 @@
     keys {
         compatible = "gpio-keys";
         on_off_key: on_off_key {
-            gpios = <&gpio0 26 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+            gpios = <&gpio0 26 (GPIO_ACTIVE_HIGH)>;
         };
     };
 
@@ -88,7 +88,7 @@
             , <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&gpio1 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            , <&gpio0 26 (GPIO_ACTIVE_HIGH)>
             ;
 
         col-gpios
