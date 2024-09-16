@@ -132,7 +132,7 @@
        &bt BT_CLR      &trans     &trans      &trans          &trans       &trans           &kp C_PREV     &kp C_VOL_DN     &kp C_VOL_UP &kp C_NEXT
        &none           &trans     &trans      &trans          &trans       &trans           &trans         &trans           &trans       &trans
        &none           &trans     &trans      &trans          &trans       &trans           &trans         &kp C_PLAY_PAUSE &kp C_MUTE       &trans
-                                  &hw_soft_off  &trans          &trans       &trans           &trans &studio_unlock
+                                  &hw_soft_off  &trans          &trans       &bootloader           &trans &studio_unlock
             >;
         };
     };
